@@ -2,6 +2,20 @@
 
 This project provides a detailed network infrastructure design for Tech Solutions Inc., a medium-sized IT consulting firm with approximately 200 employees across various departments. The design incorporates advanced networking solutions tailored for each department’s unique requirements, emphasizing security, organization, and scalability. Special attention has been given to cable management, Intermediate Distribution Frame (IDF) and Main Distribution Frame (MDF) placements, device selection, and cost-effectiveness.
 
+## File Structure
+
+This repository includes the following files:
+
+1. GROUP-C.pdf: PDF version of the network diagram, useful for easy viewing and sharing.
+
+2. GROUP-C.png: PNG image of the network diagram for quick reference and visualization.
+
+3. GROUP-C.vsdx: Original Visio file used to create the network diagram, which can be edited for future modifications.
+
+4. ReadMe.txt: Text file with additional information or instructions related to the project.
+
+5. Scenario.txt: Contains the project scenario and requirements, providing context for the design decisions.
+
 ## Project Overview
 Tech Solutions Inc. operates across two floors with five primary departments: HR, Sales, IT Support, Development, and Research & Development (R&D). Each department’s network configuration reflects its specific operational needs, including VLAN segmentation, dedicated network devices, and tailored access controls. This design also includes additional devices to enhance network robustness, secure data handling, and effective traffic management.
 
