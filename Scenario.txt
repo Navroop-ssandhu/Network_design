@@ -1,0 +1,55 @@
+Scenario: Tech Solutions Inc. 
+Overview: Tech Solutions Inc. is a medium-sized IT consulting firm with around 200 employees. The organization has multiple departments, including HR, Sales, IT Support, Development, and a separate Research and Development (R&D) team. The office spans two floors, and each department requires specific networking solutions to meet their needs.
+
+Departments and Their Requirements:
+HR Department
+
+Employees: 20
+Needs: Secure access to employee records, payroll systems, and intranet.
+Devices: 1 HR server, 1 switch, 1 router, 5 PCs, and 1 NAS for file storage.
+Sales Department
+
+Employees: 50
+Needs: Access to CRM software, internet, and a shared presentation server.
+Devices: 1 Sales server, 2 switches, 1 router, 25 PCs, and 2 IP phones.
+IT Support Department
+
+Employees: 30
+Needs: Access to internal ticketing systems, remote management tools, and a database server.
+Devices: 1 IT support server, 1 switch, 1 router, 15 PCs, and 1 backup server.
+Development Department
+
+Employees: 100
+Needs: Access to development servers, version control systems, and testing environments.
+Devices: 2 Development servers, 3 switches, 1 router, 50 PCs, and 2 virtual servers for testing.
+Research and Development (R&D) Department
+
+Employees: 30
+Needs: Secure access to research databases and collaboration tools.
+Devices: 1 R&D server, 1 switch, 1 router, 10 PCs, and 1 dedicated NAS.
+Network Infrastructure:
+Core Network: A robust core switch connects all departmental switches and routers.
+Internet Connection: A high-speed internet connection with a firewall for enhanced security.
+VLANs: Each department operates on its own VLAN for traffic segregation and security.
+Wireless Access Points (WAPs): Placed throughout the office for wireless coverage and guest access.
+Diagram Components:
+Routers: 5 (one for each department, plus one for the core)
+Switches: 8 (1 for HR, 2 for Sales, 1 for IT Support, 3 for Development, 1 for R&D)
+Servers: 6 (1 for HR, 1 for Sales, 1 for IT Support, 2 for Development, 1 for R&D)
+Firewalls: 1 (for internet security)
+Wireless Access Points: 4 (for wireless connectivity)
+VLAN Configuration: Indicate VLANs on the diagram to show traffic segregation.
+Diagram Layout Suggestions:
+Place the Core Switch in the center, connecting to each departmental Router.
+Each Router connects to its respective Switch.
+Connect Servers and NAS devices to their departmental Switches.
+Include the Firewall connected to the Core Switch, demonstrating the internet connection.
+Position WAPs around the diagram, indicating wireless access for employees and guests.
+Use different colors or labels to indicate each VLAN for clarity.
+Instructions for Creating the Diagram in Visio:
+Open Visio and select a "Network Diagram" template.
+Drag and drop shapes for each device (routers, switches, servers, WAPs) from the stencil onto the canvas.
+Use connector lines to represent connections, ensuring that VLANs are visually distinct.
+Label each device, server, and department clearly, indicating VLANs as needed.
+Include a legend if necessary to explain color codes or VLAN designations.
+Create a PPT with all necessity information about the devices and its cost as well as explanation about your network diagram
